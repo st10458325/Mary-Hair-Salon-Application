@@ -1,6 +1,6 @@
 # Mary Hair Salon — Android Application
 
-A modern, full-featured native Android application for **Mary Hair Salon**, built using **Kotlin**, **Jetpack Compose**, **Material 3**, and **Firebase**. The app delivers a tailored experience across three user roles: **Customers**, **Employees**, and **Salon Managers**, complete with offline capabilities, external API integrations, and multi-language localization.
+A modern, full-featured native Android application for **Mary Hair Salon**, built using **Kotlin**, **Jetpack Compose**, **Material 3**, and **Firebase**. The app delivers a tailored experience across customer, employee, and manager workflows.
 
 ![Android CI](https://github.com/st10458325/Mary-Hair-Salon-Application/actions/workflows/android-ci.yml/badge.svg)
 
@@ -8,7 +8,7 @@ A modern, full-featured native Android application for **Mary Hair Salon**, buil
 
 ## 🎥 Demo Video
 
-📺 **[Watch the full walkthrough on YouTube]([https://youtu.be/McKB8QYqwnY])**
+📺 **[Watch the full walkthrough on YouTube](https://youtu.be/McKB8QYqwnY)**
 
 
 ---
@@ -52,7 +52,7 @@ A modern, full-featured native Android application for **Mary Hair Salon**, buil
 
 ### 🔔 Real-Time Notifications
 * **Client-side**: `MarySalonMessagingService` receives and displays push notifications; `NotificationRepository` registers each device's FCM token against the signed-in user.
-* **Server-side**: A Firebase Cloud Function (`onBookingWritten`) listens for changes on the `bookings` collection and automatically pushes a notification to the relevant stylist (new booking) or customer (status change) within seconds — no polling, no manual trigger.
+* **Server-side**: A Firebase Cloud Function (`onBookingWritten`) listens for changes on the `bookings` collection and automatically pushes a notification to the relevant stylist or customer.
 
 ### 📶 Offline Support & Background Sync
 * **Firestore Offline Persistence**: Unlimited local cache enabling offline browsing of services and bookings.
@@ -67,7 +67,7 @@ A modern, full-featured native Android application for **Mary Hair Salon**, buil
 * **UI Architecture**: [Jetpack Compose](https://developer.android.com/jetpack/compose) with [Material 3](https://m3.material.io/)
 * **Navigation**: [Navigation Compose](https://developer.android.com/guide/navigation)
 * **Image Loading**: [Coil Compose](https://coil-kt.github.io/coil/compose/)
-* **Backend**: [Firebase Authentication](https://firebase.google.com/products/auth), [Cloud Firestore](https://firebase.google.com/products/firestore), [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging), [Cloud Functions](https://firebase.google.com/products/functions) (Node.js + Admin SDK)
+* **Backend**: [Firebase Authentication](https://firebase.google.com/products/auth), [Cloud Firestore](https://firebase.google.com/products/firestore), [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging)
 * **Networking**: [Retrofit 2](https://square.github.io/retrofit/), [Moshi](https://github.com/square/moshi), [OkHttp 4](https://square.github.io/okhttp/)
 * **Async & Threading**: Kotlin Coroutines & StateFlow
 * **Local Storage & Sync**: Jetpack DataStore Preferences & WorkManager
