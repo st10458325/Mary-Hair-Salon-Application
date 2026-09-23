@@ -8,7 +8,7 @@ A modern, full-featured native Android application for **Mary Hair Salon**, buil
 
 ## 🎥 Demo Video
 
-📺 **[Watch the full walkthrough on YouTube]([PASTE_YOUTUBE_LINK_HERE](https://youtu.be/McKB8QYqwnY))**
+📺 **[Watch the full walkthrough on YouTube]([https://youtu.be/McKB8QYqwnY])**
 
 
 ---
